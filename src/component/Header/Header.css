@@ -1,0 +1,76 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
+  .left img {
+    height: 75px;
+    width: auto;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav {
+    margin-right: 20px;
+  }
+  
+  .link {
+    font-weight: 700;
+    margin-right: 30px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    color: red;
+  }
+  
+  .login {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .login-icon {
+    height: 30px;
+    width: auto;
+    margin-right: 5px;
+  }
+  
+  .login-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .login-link:hover {
+    color: red;
+  }
+  
+  .add-listing-btn {
+    background-color: #e74141;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-listing-btn:hover {
+    background-color: #555;
+  }
+  

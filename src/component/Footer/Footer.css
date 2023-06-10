@@ -1,0 +1,79 @@
+/* Footer Container */
+.footerContainer {
+    background-image: url('https://cdn.pixabay.com/photo/2016/03/27/07/32/clouds-1282314_1280.jpg');
+    background-size: cover;
+     background-repeat: no-repeat;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Footer Content */
+  .footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  
+  .footerAddress {
+    margin-left: 50px;
+  }
+  .footerAddress p{
+    margin: -10px;
+    font-size: x-large;
+    color: black;
+  }
+  
+  .footerAddress img {
+    width: 100px;
+    margin-bottom: 40px;
+  }
+  
+  .footerSection {
+    color: black;
+    margin-right: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .footerSection h3 {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    font-weight: 800;
+  }
+  
+  .footerSection ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  
+  .footerSection li {
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  .bottomNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  
+  .socialMedia img {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+  }
+  
+  
+  .footerCopyRight {
+    font-size: 14px;
+    margin-right: 550px;
+    margin-top: 30px;
+  }
+  
